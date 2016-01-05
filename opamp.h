@@ -91,6 +91,9 @@ enum OPAMP_VPS_SEL {
 	OPAMP_VPS_SEL_VP2 = (2 << OPAMP_CSR_VPS_SEL_SHIFT),
 	OPAMP_VPS_SEL_VP3 = (3 << OPAMP_CSR_VPS_SEL_SHIFT),
 
+	// The following are just aliases for convenience, mapped for F303. 
+	// probably should not be included in the library, as they're too specific.
+	// same for the following enums.
 	OPAMP1_VPS_SEL_PA7 = OPAMP_VPS_SEL_VP0,
 	OPAMP1_VPS_SEL_PA5 = OPAMP_VPS_SEL_VP1,
 	OPAMP1_VPS_SEL_PA3 = OPAMP_VPS_SEL_VP2,
